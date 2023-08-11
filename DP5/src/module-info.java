@@ -5,5 +5,5 @@
  * @author dell
  *
  */
-module WrittenTest {
+module DP5 {
 }
