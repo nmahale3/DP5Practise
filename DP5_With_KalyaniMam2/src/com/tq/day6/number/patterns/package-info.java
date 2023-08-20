@@ -1,0 +1,1 @@
+package com.tq.day6.number.patterns;
