@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class StudentConnection {
-	
+
 	static String driver="com.mysql.cj.jdbc.Driver";
 	static String url="jdbc:mysql://localhost:33078/student_db";
 	static String username="root";
@@ -19,7 +19,7 @@ public class StudentConnection {
 	static String sql;
 	static ResultSet rs;
 	public static void getConnect() throws ClassNotFoundException,SQLException {
-	
+
 		Class.forName(driver);
 		System.out.println("Driver Loaded");
 		conn=DriverManager.getConnection(url, username, userpass);
@@ -46,7 +46,7 @@ public class StudentConnection {
 		{
 			System.out.println(s);
 		}
-		
+
 	}
 
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
